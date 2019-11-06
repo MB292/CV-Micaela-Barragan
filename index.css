@@ -1,0 +1,73 @@
+.titulo {
+  font-family: Montserrat-Bold.ttf;
+  color: #000000;
+  font-size: 25px
+}
+
+.texto {
+  font-family: Montserrat-Regular.ttf;
+  color: #000000;
+  font-size: 20px;
+}
+
+.carta {
+  Width: 350px;
+  height: 170px;
+  position: absolute;
+  top:320px;
+  margin-left: 41%;
+  background-color:rgba(189, 186, 186, 0.973);
+  display:none;
+}
+
+.nombre {
+  font-family: Montserrat-bold.ttf;
+  font-size: 20px;
+  color: #000000;
+  position: relative;
+  top: 20px;
+  margin-left: 30px;
+}
+.direccion {
+  font-family: Montserrat-bold.ttf;
+  font-size: 20px;
+  color: #000000;
+  position: relative;
+  top: 20px;
+  margin-left: 30px;
+}
+.telefono {
+  font-family: Montserrat-bold.ttf;
+  font-size: 20px;
+  color: #000000;
+  position: relative;
+  top: 20px;
+  margin-left: 30px;
+}
+
+.visible {
+  display:block;
+}
+
+.espacio {
+  Width: 67px;
+}
+
+.chat {
+  position:relative;
+  top:00%;
+  margin-left: 90%;
+}
+
+.ventanaoculta {
+  background-color:#FFFFFF;
+  Width: 178px;
+  height: 200px;
+  position: relative;
+  top:0px;
+  margin-left: 90%;
+  display:none;
+}
+.ventanavisible {
+  display: block ;
+}
