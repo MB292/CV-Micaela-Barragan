@@ -1,0 +1,109 @@
+
+.carta {
+  position: absolute;
+  top: 280px;
+  margin-left: 50%;
+  display:none;
+}
+
+.nombre {
+  font-family: Montserrat-bold.ttf;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  top: 30px;
+  margin-left: 30px;
+}
+
+.text1 {
+  font-family: Montserrat-bold.ttf;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  top: 20px;
+  margin-left: 45px;
+}
+.text2 {
+  font-family: Montserrat-bold.ttf;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  top: 20px;
+  margin-left: 30px;
+}
+.text3 {
+  font-family: Montserrat-bold.ttf;
+  font-size: 25px;
+  color: #ffffff;
+  position: relative;
+  top: 10px;
+  margin-left: 160px;
+}
+
+
+
+
+.saludo {
+  font-family: Montserrat-Regular.ttf;
+  color: #000000;
+  font-size: 15px;
+  top: 50px;
+  margin-left: 10px;
+}
+
+
+.ventanaoculta {
+  background-color:#FFFFFF;
+  Width: 178px;
+  height: 200px;
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+  display: none;
+  position: fixed;
+
+}
+.boton {
+  position:absolute;
+  position: fixed;
+  bottom:0px;
+  right: 0px;
+}
+.ventanavisible {
+  display: block ;
+}
+
+
+.datos {
+  font-family: Montserrat-Bold.ttf;
+  color: #FFFFFF;
+  font-size: 25px
+}
+
+.individual{
+  margin-left: 10px
+}
+.sucursal{
+  background-color:rgba(104, 104, 104, 0.781);
+  Width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 260px;
+  margin-left: 50%;
+}
+
+.space{
+  Width: 30px;
+  height: 50px;
+}
+.space2{
+  Width: 55px;
+  height: 50px;
+}
+
+
+.formulario{
+  background-color:rgba(104, 104, 104, 0.781);
+  Width: 500px;
+  height: 480px;
+}

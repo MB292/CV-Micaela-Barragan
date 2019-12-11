@@ -1,0 +1,70 @@
+
+
+.text1 {
+  font-family: Montserrat-bold.ttf;
+  font-size: 20px;
+  color: #000000;
+  position: relative;
+  top: 20px;
+  margin-left: 45px;
+}
+
+
+
+.saludo {
+  font-family: Montserrat-Regular.ttf;
+  color: #000000;
+  font-size: 15px;
+  top: 50px;
+  margin-left: 10px;
+}
+
+
+.ventanaoculta {
+  background-color:#FFFFFF;
+  Width: 178px;
+  height: 200px;
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+  display: none;
+  position: fixed;
+
+}
+.boton {
+  position:absolute;
+  position: fixed;
+  bottom:0px;
+  right: 0px;
+}
+.ventanavisible {
+  display: block ;
+}
+
+
+.datos {
+  font-family: Montserrat-Bold.ttf;
+  color: #FFFFFF;
+  font-size: 25px
+}
+
+
+
+.space{
+  Width: 30px;
+  height: 50px;
+}
+.space2{
+  Width: 55px;
+  height: 50px;
+}
+
+
+.formulario{
+  background-color:rgba(104, 104, 104, 0.781);
+  Width: 500px;
+  height: 480px;
+}
+.individual{
+  margin-left: 40px;
+}

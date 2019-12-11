@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <link rel="stylesheet"
+        type="text/css"
+        href="nosotros.css" />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAoSRxYVY8Wh8BxW_M6LQFYjZJmT3IJ6cA",
+    authDomain: "proyecto-1-b583c.firebaseapp.com",
+    databaseURL: "https://proyecto-1-b583c.firebaseio.com",
+    projectId: "proyecto-1-b583c",
+    storageBucket: "proyecto-1-b583c.appspot.com",
+    messagingSenderId: "136631858292",
+    appId: "1:136631858292:web:6e8f4ea15d13cdbbaa0d21",
+    measurementId: "G-V8ZT8ZQ0NQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<title>Antun</title>
+    </head>
+    <body background="fondo-03.jpg">
+      <nav class="navbar navbar-dark bg-dark" style="color:#fff">
+        <a href="index.html"><img src="logo blanco-01.png" width="130" height="40"/></a>
+        <a href="nosotros.html">Nosotros</a>
+         <a href="sucursales.html">Sucursales</a> 
+         <a href="Contactanos.html">Contactanos</a>
+        </nav>
+        <center>
+            <br>
+            <div>
+          <img src="logo antun-02.png" width="500" height="160"/>
+      <div>
+        <p class="text1">
+            Grupo Antun nace en 1990, contando sólo con dos marcas, Fiat y Chevrolet y año tras año fue creciendo
+            hasta convertirse en el grupo de concesionarias con más marcas oficiales de la provincia de Córdoba.
+            
+            Líder en ventas dentro del país, estamos presentes en todas las categorías del rubro,
+             venta convencional, plan de ahorro, y servicio post venta.
+            
+            Los pilares de la firma son la Atención Personalizada, Financiación a medida y el Servicio Post Venta.
+            
+            Certificado por normas Worl Class Dealer, el alto índice de calidad en procesos es lo que nos 
+            diferencia de la competencia y le da al cliente datos fehacientes de la seriedad y 
+            profesionalización de la marca.
+            
+            Contamos con profesionales para la atención, asesoramiento y seguimiento del cliente.
+         
+        </p>
+      </div>
+      <br>
+    
+    <div class="row col-md offset-1">
+            <div class="individual" productID="chexa">
+                <img src="Logos-02.png" width="150px" height="150px">
+          </div>
+
+          <div class="individual" productID="turin">
+              <img src="Logos-03.png" width="150px" height="150px">
+          </div>
+
+          <div class="individual" productID="hiperplatinum">
+              <img src="Logos-04.png" width="150px" height="150px">
+          </div>
+       
+          <div class="individual" productID="hiperauto">
+              <img src="Logos-05.png" width="150px" height="150px">
+          </div>
+          <div class="individual" productID="jea">
+            <img src="Logos-06.png" width="150px" height="150px">
+        </div>
+        <div class="individual" productID="geelycor">
+          <img src="Logos-07.png" width="150px" height="150px">
+      </div>
+     <div class="individual" productID="utilxa">
+        <img src="Logos-08.png" width="150px" height="150px">
+    </div>
+    <div class="individual" productID="chexsur">
+      <img src="Logos-09.png" width="150px" height="150px">
+  </div>
+</div>
+</center>
+
+  
+ 
+
+ 
+    <br>
+    <br>
+<center>
+  <div class="formulario">
+    <br>
+    <h1 class="datos">DEJANOS TU CONSULTA</h1>
+    <br>
+    <form id="contactForm">
+  
+    <div class="row col-md offset-1"><p class="datos">Nombre</p><div class="space"></div><input type="text" name="nombre" id="nombre" style="width: 230px; height:40px"></div>
+    <div class="row col-md offset-1"><p class="datos">E-mail</p><div class="space2"></div><input type="email" name="email" id="email" style="width: 230px; height:40px"></div>
+    <div class="row col-md offset-1"><p class="datos">Teléfono</p><div class="space"></div><input type="number" name="telefono" id="telefono" style="width: 230px; height:40px"></div>
+    <div class="row col-md offset-1"><p class="datos">Consulta</p><div class="space"></div><textarea name="consulta" rows=4 id="consulta" style="width: 230px; height:150px"></textarea></div>
+
+  <br>
+  
+    <button type="enviar" class="btn btn-dark">ENVIAR</button>
+  </form>
+  </div>
+  </center>
+  <div class="ventanaoculta"><p class="saludo">Hola, En qué podemos ayudarte?</p></div>
+  <div class="chat">
+    <button type="button" class="btn btn-dark boton">CONSULTANOS AQUÍ</button>
+  </div>
+  
+    <script src="nosotros.js"></script> 
+    </body>
+</html>
