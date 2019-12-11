@@ -2,7 +2,7 @@
     <head>
         <link rel="stylesheet"
         type="text/css"
-        href="index.css" />
+        href="index.css"/>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -13,9 +13,46 @@
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyAoSRxYVY8Wh8BxW_M6LQFYjZJmT3IJ6cA",
+        authDomain: "proyecto-1-b583c.firebaseapp.com",
+        databaseURL: "https://proyecto-1-b583c.firebaseio.com",
+        projectId: "proyecto-1-b583c",
+        storageBucket: "proyecto-1-b583c.appspot.com",
+        messagingSenderId: "136631858292",
+        appId: "1:136631858292:web:5474d8be5e0b873eaa0d21",
+        measurementId: "G-15Y79Z74SK"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+
+
 <title>Antun</title>
     </head>
     <body background="fondo-03.jpg">
+      <nav class="navbar navbar-dark bg-dark" style="color:#fff">
+        <a href="index.html"><img src="logo blanco-01.png" width="130" height="40"/></a>
+        <a href="Nosotros/nosotros.html">Nosotros</a>
+         <a href="Sucursales/sucursales.html">Sucursales</a> 
+         <a href="Contactanos/Contactanos.html">Contactanos</a>
+        </nav>
         <center>
             <br>
             <div>
@@ -25,51 +62,78 @@
               DE LA PROVINCIA DE CÓRDOBA</h1>
             </div>
     </center>
-    <div class="row col-md offset-3">
-            <div class="individual" productID="chexa">
-              <img src="Logos-02.png" width="250px" height="250px">
+    
+    <div class="col-md offset-1 autoplay">
+            <div>
+                <a target="_blank" href="https://chevroletchexa.com.ar"><img src="Logos-02.png" width="250px" height="250px"></a>
           </div>
 
-          <div class="individual" productID="turin">
-              <img src="Logos-03.png" width="250px" height="250px">
+          <div>
+              <a target="_blank" href="https://turinfiat.com"><img src="Logos-03.png" width="250px" height="250px"></a>
           </div>
 
-          <div class="individual" productID="hiperplatinum">
-              <img src="Logos-04.png" width="250px" height="250px">
+          <div>
+              <a target="_blank" href="https://www.hiperplatinum.com/"><img src="Logos-04.png" width="250px" height="250px"></a>
           </div>
 
-          <div class="individual" productID="hiperauto">
-              <img src="Logos-05.png" width="250px" height="250px">
+          <div>
+              <a target="_blank" href="http://www.hiperautohyundai.com/"><img src="Logos-05.png" width="250px" height="250px"></a>
+          </div>
+          <div>
+              <a target="_blank" href="https://www.jeajeep.com.ar/"><img src="Logos-06.png" width="250px" height="250px"></a>
+          </div>
+          <div>
+              <a target="_blank" href="https://www.facebook.com/GeelyCor/"><img src="Logos-07.png" width="250px" height="250px"></a>
+          </div>
+          <div >
+              <a target="_blank" href="https://www.facebook.com/Utilxa/"><img src="Logos-08.png" width="250px" height="250px"></a>
+          </div>
+          <div >
+              <a target="_blank" href="https://chevroletchexa.com.ar"><img src="Logos-09.png" width="250px" height="250px"></a>
           </div>
   </div>
-    <div class="carta">
-        <p class="nombre"><b></b></p>
-        <p class="direccion"><b></b></p>
-        <p class="telefono"><b></b></p>
-    </div>
+   
     <center>
     <div>
       <h2 class="texto">Seguinos en Redes</h2>
     </div>
-    </center>
-    <div class="row col-sm offset-5">
+  
+    <div class="row col-md offset-5">
       <a target="_blank" href="https://www.facebook.com/turinauto/"><img src="face.png" width="50" height="50"/></a>
       <div class="espacio"></div>
       <a target="_blank" href="https://www.instagram.com/turin.auto/"><img src="insta.png" width="50" height="50"/></a>
       <div class="espacio"></div>
       <a target="_blank" href="https://twitter.com/TurinFiat/"><img src="twitter.png" width="50" height="50"/></a>
     </div>
-    
 
-    <div class="ventanaoculta"></div>
-    <div class="chat">
-      <button type="button" class="btn btn-dark boton">CONSULTANOS AQUÍ</button>
-    </div>
-    
+  <br>
+  <br>
 
+  <div class="formulario">
+    <br>
+    <h1 class="datos">DEJANOS TU CONSULTA</h1>
+    <br>
+    <form id="contactForm">
+  
+    <div class="row col-md offset-1"><p class="datos">Nombre</p><div class="space"></div><input type="text" name="nombre" id="nombre" style="width: 230px; height:40px"></div>
+    <div class="row col-md offset-1"><p class="datos">E-mail</p><div class="space2"></div><input type="email" name="email" id="email" style="width: 230px; height:40px"></div>
+    <div class="row col-md offset-1"><p class="datos">Teléfono</p><div class="space"></div><input type="number" name="telefono" id="telefono" style="width: 230px; height:40px"></div>
+    <div class="row col-md offset-1"><p class="datos">Consulta</p><div class="space"></div><textarea name="consulta" rows=4 id="consulta" style="width: 230px; height:150px"></textarea></div>
 
-    <div class="tocomplete row"></div>
+  <br>
+  
+    <button type="enviar" class="btn btn-dark">ENVIAR</button>
+  </form>
+  </div>
+  </center>
+  <div class="ventanaoculta"><p class="saludo">Hola, En qué podemos ayudarte?</p></div>
+  <div class="chat">
+    <button type="button" class="btn btn-dark boton">CONSULTANOS AQUÍ</button>
+  </div>
   
     <script src="index.js"></script> 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
 </body>
 </html>
